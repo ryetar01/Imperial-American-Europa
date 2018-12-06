@@ -1,0 +1,22 @@
+
+state={
+	id=482
+	name="STATE_482"
+	manpower = 520751
+	
+	state_category = rural
+
+	history={
+		owner = EVI
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MEX
+		add_core_of = EVI
+	}
+
+	provinces={
+		2037 4898 7935 8097 10809 10830 10916 12745 12827 12850 12897 
+	}
+	
+}
