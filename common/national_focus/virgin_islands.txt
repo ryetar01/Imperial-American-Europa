@@ -1,0 +1,72 @@
+focus_tree = {
+	id = virgin_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = EVI
+		}
+	}
+		focus = {
+		id = economic_output
+		icon = GFX_goal_generic_army_doctrines
+		
+		x = 0
+		y = 0
+		
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+		focus = {
+		id = economic_output_2
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = economic_output }
+		x = 0
+		y = 1
+		
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+		focus = {
+		id = invasion_of_the_autocracy
+		icon = GFX_goal_generic_army_doctrines
+		
+		x = 2
+		y = 0
+		
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_wargoal = {
+			type = take_state_focus
+			target = FAA
+			generator = { 483 484 }
+				}
+		}
+	}
