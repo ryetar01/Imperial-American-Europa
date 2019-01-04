@@ -1,10 +1,9 @@
-
 state={
-	id=453
-	name="STATE_453"
+	id=763
+	name="STATE_763"
 
 	history={
-		owner = ENG
+		owner = EVI
 		buildings = {
 			infrastructure = 2
 			1155 = {
@@ -17,11 +16,9 @@ state={
 		add_core_of = EVI
 
 	}
-
 	provinces={
-		1112 4161 10002 10099 11922 11979 12073 
+		1155 4073 9947 12049 
 	}
-	manpower=15359
+	manpower=0
 	buildings_max_level_factor=1.000
-	state_category=wasteland
 }

@@ -1,0 +1,25 @@
+state={
+	id=764
+	name="STATE_764"
+	history={
+		owner = EVI
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 4
+			dockyard = 1
+			air_base = 10
+			3732 = {
+				naval_base = 8
+				}
+
+			}
+			
+
+		}
+	provinces={
+		1282 1338 1619 3732 4287 6719 7462 10247 10318 12202 12221 12459 
+	}
+	manpower=846435
+	buildings_max_level_factor=1.000
+}
