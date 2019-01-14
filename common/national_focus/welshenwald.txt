@@ -1,0 +1,33 @@
+focus_tree = {
+	id = welshenwald_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = WEL
+		}
+	}
+		focus = {
+		id = middle_eastern_crusade
+		icon = GFX_goal_generic_army_doctrines
+		x = 10
+		y = 0
+		
+		cost = 10
+
+		available_if_capitulated = yes
+
+		
+			completion_reward = {
+       			EVI = {
+       				country_event = { id = welshenwald.1 }
+                    }
+                NAP = {
+                country_event = { id = welshenwald.2 }
+                }	
+            } 
+		}
+	
+		
