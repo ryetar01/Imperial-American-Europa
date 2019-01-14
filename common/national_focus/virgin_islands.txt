@@ -142,25 +142,7 @@ focus_tree = {
 		}
 	}
 
-		focus = {
-		id = invasion_of_the_autocracy
-		icon = GFX_goal_generic_army_doctrines
 		
-		x = 6
-		y = 0
-		
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			create_wargoal = {
-			type = take_state_focus
-			target = FAA
-			generator = { 483 484 }
-				}
-		}
-	}
 	focus = {
 		id = military_upgrades
 		icon = GFX_goal_generic_army_doctrines
@@ -184,6 +166,7 @@ focus_tree = {
                 } 
 
 			}
+		}
 	focus = {
 		id = military_upgrades_2
 		icon = GFX_goal_generic_army_doctrines
@@ -207,4 +190,23 @@ focus_tree = {
                 } 
 
 			}
+		}
+		focus = {
+		id = invasion_of_the_autocracy
+		icon = GFX_goal_generic_army_doctrines
 		
+		x = 5
+		y = 1
+		
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_wargoal = {
+			type = take_state_focus
+			target = FAA
+			generator = { 483 484 }
+				}
+		}
+	}

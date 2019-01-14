@@ -1,0 +1,38 @@
+###########################
+# Welshenwalds Events
+###########################
+
+add_namespace = welshenwald
+country_event = {
+	id = welshenwald.1
+	title = welshenwald.1.t
+	desc = Welshenwalds.1.d
+	picture = GFX_report_event_japanese_transport_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { #Participate
+		name = welshenwald.1.a
+		EVI = { annex_country = { target = PER transfer_troops = yes } }
+		EVI = { annex_country = { target = AFG transfer_troops = yes } }
+		EVI = {
+			transfer_state = 291
+			transfer_state = 656
+			transfer_state = 675
+			transfer_state = 680
+			transfer_state = 676
+
+		}
+
+		effect_tooltip = {
+			
+			}
+		}
+	}
+	option = { # Refuse
+		name = welshenwald.1.b
+		ai_chance = { factor = 25 }
+		
+		}
+	}
+}

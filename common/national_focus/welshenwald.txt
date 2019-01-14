@@ -26,8 +26,21 @@ focus_tree = {
                     }
                 NAP = {
                 country_event = { id = welshenwald.2 }
-                }	
-            } 
-		}
-	
+                WEL = { annex_country = { target = TUR transfer_troops = no } }
+                WEL = { annex_country = { target = BUL transfer_troops = no } }
+                WEL = { annex_country = { target = ROM transfer_troops = yes } }
+                WEL = {
+                	transfer_state = 677
+                	transfer_state = 554
+                	transfer_state = 183
+                	transfer_state = 553
+                	transfer_state = 455
+                	transfer_state = 454
+                	transfer_state = 453
+
+               			}	
+               		}
+              	}
+          	} 
+				
 		
