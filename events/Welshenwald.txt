@@ -14,7 +14,7 @@ country_event = {
 	option = { #Participate
 		name = welshenwald.1.a
 		EVI = { annex_country = { target = PER transfer_troops = yes } }
-		EVI = { annex_country = { target = AFG transfer_troops = yes } }
+		EVI = { annex_country = { target = AFG transfer_troops = no } }
 		EVI = {
 			transfer_state = 291
 			transfer_state = 656
@@ -31,6 +31,37 @@ country_event = {
 	}
 	option = { # Refuse
 		name = welshenwald.1.b
+		ai_chance = { factor = 25 }
+		
+		}
+	}
+}
+country_event = {
+	id = welshenwald.2
+	title = welshenwald.2.t
+	desc = Welshenwalds.2.d
+	picture = GFX_report_event_japanese_transport_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { #Participate
+		name = welshenwald.2.a
+		NAP = { annex_country = { target = SAU transfer_troops = yes } }
+		NAP = { annex_country = { target = YEM transfer_troops = yes } }
+		NAP = { annex_country = { target = OMA transfer_troops = yes }}
+		NAP = {
+			transfer_state = 659
+			transfer_state = 658
+			transfer_state = 455
+		}
+
+		effect_tooltip = {
+			
+			}
+		}
+	}
+	option = { # Refuse
+		name = welshenwald.2.b
 		ai_chance = { factor = 25 }
 		
 		}
