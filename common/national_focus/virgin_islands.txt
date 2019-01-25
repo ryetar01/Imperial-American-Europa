@@ -191,22 +191,182 @@ focus_tree = {
 
 			}
 		}
-		focus = {
-		id = invasion_of_the_autocracy
-		icon = GFX_goal_generic_army_doctrines
 		
-		x = 5
+	focus = {
+		id = military_upgrades_3
+		icon = GFX_goal_generic_army_doctrines
+		x = 2
+		y = 3
+		prerequisite = { focus = military_upgrades_2 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		
+			completion_reward = {
+       			488 = {
+                    add_extra_state_shared_building_slots = 3
+               	 	add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                    }
+
+                } 
+
+			}
+		}
+	focus = {
+		id = military_upgrades_4
+		icon = GFX_goal_generic_army_doctrines
+		x = 2
+		y = 4
+		prerequisite = { focus = military_upgrades_3 }
+		cost = 10
+
+		available_if_capitulated = yes
+
+		
+			completion_reward = {
+       			315 = {
+                    add_extra_state_shared_building_slots = 3
+               	 	add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                    }
+
+                } 
+
+			}
+		}
+		focus = {
+		id = naval_upgrades
+		icon = GFX_goal_generic_army_doctrines
+		x = 4
 		y = 1
+		prerequisite = { focus = industrial_work }
+		cost = 4
+
+		available_if_capitulated = yes
+
+		
+			completion_reward = {
+       			319 = {
+                    add_extra_state_shared_building_slots = 3
+               	 	add_building_construction = {
+                    type = dockyard
+                    level = 3
+                    instant_build = yes
+                    }
+                   
+                    
+
+                } 
+
+			}
+		}
+focus = {
+		id = naval_upgrades_2
+		icon = GFX_goal_generic_army_doctrines
+		x = 4
+		y = 2
+		prerequisite = { focus = naval_upgrades }
+		cost = 4
+
+		available_if_capitulated = yes
+
+		
+			completion_reward = {
+       			319 = {
+                    add_extra_state_shared_building_slots = 3
+               	 	add_building_construction = {
+                    type = dockyard
+                    level = 3
+                    instant_build = yes
+                    }
+                   
+                    
+
+                } 
+
+			}
+		}
+focus = {
+		id = naval_upgrades_3
+		icon = GFX_goal_generic_army_doctrines
+		x = 4
+		y = 3
+		prerequisite = { focus = naval_upgrades_2 }
+		cost = 4
+
+		available_if_capitulated = yes
+
+		
+			completion_reward = {
+       			489 = {
+                    add_extra_state_shared_building_slots = 3
+               	 	add_building_construction = {
+                    type = dockyard
+                    level = 3
+                    instant_build = yes
+                    }
+                   
+                    
+
+                } 
+
+			}
+		}
+focus = {
+		id = naval_upgrades_4
+		icon = GFX_goal_generic_army_doctrines
+		x = 4
+		y = 4
+		prerequisite = { focus = naval_upgrades_3 }
+		cost = 4
+
+		available_if_capitulated = yes
+
+		
+			completion_reward = {
+       			493 = {
+                    add_extra_state_shared_building_slots = 3
+               	 	add_building_construction = {
+                    type = dockyard
+                    level = 3
+                    instant_build = yes
+                    }
+                   
+                    
+
+                } 
+
+			}
+		}
+focus = {
+		id = african_expansion
+		icon = GFX_goal_generic_army_doctrines
+		x = 9
+		y = 0
 		
 		cost = 10
 
 		available_if_capitulated = yes
 
-		completion_reward = {
-			create_wargoal = {
-			type = take_state_focus
-			target = FAA
-			generator = { 483 484 }
-				}
+		
+			completion_reward = {
+				transfer_state = 446
+				transfer_state = 447
+				transfer_state = 452
+				transfer_state = 552
+				transfer_state = 456
+				transfer_state = 457
+				transfer_state = 663
+				transfer_state = 450
+				transfer_state = 662
+				transfer_state = 449
+				transfer_state = 451
+				transfer_state = 273
+				transfer_state = 661
 		}
-	}
