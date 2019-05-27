@@ -20,5 +20,5 @@ state = {
 		add_core_of = FAA
 		add_core_of = EVI
 	}
-	provinces= { 1892 1904 7964 8119 12461 12736 12859 }
+	provinces= { 1892 1904 7964 8119 12461 12736 12859 13215 13216 }
 }
